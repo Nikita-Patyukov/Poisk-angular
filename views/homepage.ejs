@@ -1,7 +1,9 @@
-<div ng-app="MyApp" class="container">
+<!--<div ng-app="MyApp" class="container">
   <b>Hello</b>
   <a ui-sref="state1">state1</a>
   <a ui-sref="state2">state2</a>
   <div ui-view="main"></div>
-
+</div> -->
+<div ng-app="MyApp" ng-controller="mainCtrl">
+  <dropdown-list data-items-list="itemsList" data-placeholder="Item name"></dropdown-list>
 </div>
